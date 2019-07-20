@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -28,9 +28,9 @@ img {
   max-width: 100%;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main Components 
+Main Components
 
 -------------------------------- */
 .cd-header {
@@ -138,7 +138,7 @@ Main Components
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Slider
 
@@ -151,8 +151,11 @@ Slider
 
 .cd-hero-slider {
   position: relative;
-  height: 360px;
+  height: 680px;
   overflow: hidden;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+   -moz-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
 }
 .cd-hero-slider li {
   position: absolute;
@@ -189,29 +192,20 @@ Slider
   -moz-transition: -moz-transform 0.5s;
   transition: transform 0.5s;
 }
-@media only screen and (min-width: 768px) {
-  .cd-hero-slider {
-    height: 500px;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .cd-hero-slider {
-    height: 680px;
-  }
-}
 
-/* -------------------------------- 
+/* --------------------------------
 
 Single slide style
 
 -------------------------------- */
 .cd-hero-slider li {
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .cd-hero-slider li:first-of-type {
-  background-image: url(../img/slide_01.jpg);
+  background-image: url(../assets/header/bg-image.jpg);
 }
 .cd-hero-slider li:nth-of-type(2) {
   background-image: url(../img/slide_02.jpg);
@@ -228,7 +222,7 @@ Single slide style
   left: 0;
   top: 0;
   /* this padding is used to align the text */
-  padding-top: 80px;
+  padding-top: 90px;
   text-align: center;
   /* Force Hardware Acceleration in WebKit */
   -webkit-backface-visibility: hidden;
@@ -374,7 +368,7 @@ Single slide style
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Single slide animation
 
@@ -405,7 +399,7 @@ Single slide animation
     transform: translateX(0);
   }
   .cd-hero-slider .is-moving .cd-half-width {
-    /* this is the slide moving outside the viewport 
+    /* this is the slide moving outside the viewport
     wait for the end of the transition on the <li> parent before set opacity to 0 and translate to 40px/-40px */
     -webkit-transition: opacity 0s 0.5s, -webkit-transform 0s 0.5s;
     -moz-transition: opacity 0s 0.5s, -moz-transform 0s 0.5s;
@@ -459,7 +453,7 @@ Single slide animation
   .cd-hero-slider li.is-moving .cd-full-width h2,
   .cd-hero-slider li.is-moving .cd-full-width p,
   .cd-hero-slider li.is-moving .cd-full-width .cd-btn {
-    /* this is the slide moving outside the viewport 
+    /* this is the slide moving outside the viewport
     wait for the end of the transition on the li parent before set opacity to 0 and translate to 100px/-100px */
     -webkit-transition: opacity 0s 0.5s, -webkit-transform 0s 0.5s;
     -moz-transition: opacity 0s 0.5s, -moz-transform 0s 0.5s;
@@ -481,7 +475,7 @@ Single slide animation
     transition: opacity 0.4s 0.4s, transform 0.5s 0.4s, background-color 0.2s 0s;
   }
 }
-/* -------------------------------- 
+/* --------------------------------
 
 Slider navigation
 
@@ -636,7 +630,7 @@ Slider navigation
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Main content
 
@@ -662,7 +656,7 @@ Main content
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Javascript disabled
 
