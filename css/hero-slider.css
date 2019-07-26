@@ -3,6 +3,26 @@
 Primary style
 
 -------------------------------- */
+
+
+/* regular iPhones*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 810px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
+
+  .cd-hero-slider li:first-of-type{
+    height: 300px;
+  }
+
+  .cd-hero{
+    height: 300px;
+  }
+
+
+}
+
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -44,10 +64,19 @@ Main Components
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+
   .cd-header {
     height: 70px;
     background-color: transparent;
+  }
+
+  .cd-hero-slider li:first-of-type{
+    height: 400px;
+  }
+
+  .cd-hero{
+    height: 400px;
   }
 }
 
@@ -59,10 +88,14 @@ Main Components
   display: block;
 }
 @media only screen and (min-width: 768px) {
+
+
+
   #cd-logo {
     margin: 23px 0 0 5%;
   }
 }
+
 
 .cd-primary-nav {
   /* mobile first - navigation hidden by default, triggered by tap/click on navigation icon */
@@ -151,11 +184,8 @@ Slider
 
 .cd-hero-slider {
   position: relative;
-  height: 680px;
+  height: 650px;
   overflow: hidden;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-   -moz-box-shadow: 0 8px 6px -6px black;
-        box-shadow: 0 8px 6px -6px black;
 }
 .cd-hero-slider li {
   position: absolute;
@@ -374,6 +404,9 @@ Single slide animation
 
 -------------------------------- */
 @media only screen and (min-width: 768px) {
+
+
+
   .cd-hero-slider .cd-half-width {
     opacity: 0;
     -webkit-transform: translateX(40px);
@@ -628,6 +661,8 @@ Slider navigation
   .cd-slider-nav a::before {
     top: 18px;
   }
+
+
 }
 
 /* --------------------------------
@@ -654,7 +689,16 @@ Main content
   .cd-main-content p {
     font-size: 1.6rem;
   }
+
+
 }
+
+
+
+
+
+
+
 
 /* --------------------------------
 
