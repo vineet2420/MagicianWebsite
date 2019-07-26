@@ -358,10 +358,10 @@ ul.cd-hero-slider {
 #what-we-do {
 	background-image: url(../assets/about/about-section-bg.jpg);
   background-repeat:repeat-x;
-    background-attachment:fixed;
-    background-position: left top;
-    width: 100%;
-    margin:0;
+  background-attachment:fixed;
+  background-position: left top;
+  width: 100%;
+  margin:0;
 	padding: 80px 0px;
 	color: #fff;
 }
@@ -372,10 +372,6 @@ ul.cd-hero-slider {
 	overflow: hidden;
 	margin-left: 40%;
 	box-shadow: 0px 0px 40px 40px #000000;
-  content: "";
-
-
-   pointer-events: none;
 	/*TO BLUR AN IMAGE*/
 	/*filter: blur(1px);*/
 }
@@ -391,7 +387,7 @@ ul.cd-hero-slider {
 	line-height: 30px;
 	margin-bottom: 25px;
   padding: 10px;
-  background-color: 	rgb(144,144,144,.7);
+  background-color: rgb(144,144,144,.7);
   border-radius: 25px;
 }
 
