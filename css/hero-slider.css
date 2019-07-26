@@ -180,6 +180,7 @@ Slider
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cd-hero-slider {
@@ -236,6 +237,7 @@ Single slide style
 }
 .cd-hero-slider li:first-of-type {
   background-image: url(../assets/header/bg-image.jpg);
+
 }
 .cd-hero-slider li:nth-of-type(2) {
   background-image: url(../img/slide_02.jpg);

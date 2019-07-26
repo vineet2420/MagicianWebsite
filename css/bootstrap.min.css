@@ -1385,7 +1385,7 @@ p {
     line-height: 1.4
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .lead {
         font-size: 21px
     }
@@ -1573,7 +1573,7 @@ dd {
     margin-left: 0
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .dl-horizontal dt {
         float: left;
         width: 160px;
@@ -1728,7 +1728,7 @@ pre code {
     margin-left: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .container {
         width: 750px
     }
@@ -2031,7 +2031,7 @@ pre code {
     margin-left: 0
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .col-sm-1,
     .col-sm-2,
     .col-sm-3,
@@ -2764,7 +2764,7 @@ table th[class*=col-] {
     overflow-x: auto
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:1200px) {
     .table-responsive {
         width: 100%;
         margin-bottom: 15px;
@@ -3238,7 +3238,7 @@ select[multiple].form-group-lg .form-control {
     color: #737373
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .form-inline .form-group {
         display: inline-block;
         margin-bottom: 0;
@@ -3308,7 +3308,7 @@ select[multiple].form-group-lg .form-control {
     margin-left: -15px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .form-horizontal .control-label {
         padding-top: 7px;
         margin-bottom: 0;
@@ -3320,13 +3320,13 @@ select[multiple].form-group-lg .form-control {
     right: 15px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .form-horizontal .form-group-lg .control-label {
         padding-top: 14.3px
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .form-horizontal .form-group-sm .control-label {
         padding-top: 6px
     }
@@ -3962,7 +3962,7 @@ tbody.collapse.in {
     margin-bottom: 1px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .navbar-right .dropdown-menu {
         right: 0;
         left: auto
@@ -4460,7 +4460,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     left: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .nav-tabs.nav-justified>li {
         display: table-cell;
         width: 1%
@@ -4481,7 +4481,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     border: 1px solid #ddd
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .nav-tabs.nav-justified>li>a {
         border-bottom: 1px solid #ddd;
         border-radius: 4px 4px 0 0
@@ -4539,7 +4539,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     left: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .nav-justified>li {
         display: table-cell;
         width: 1%
@@ -4564,7 +4564,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     border: 1px solid #ddd
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .nav-tabs-justified>li>a {
         border-bottom: 1px solid #ddd;
         border-radius: 4px 4px 0 0
@@ -4599,13 +4599,13 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     border: 1px solid transparent
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .navbar {
         border-radius: 4px
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .navbar-header {
         float: left
     }
@@ -4625,7 +4625,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     overflow-y: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .navbar-collapse {
         width: auto;
         border-top: 0;
@@ -4670,7 +4670,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     margin-left: -15px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .container>.navbar-header,
     .container-fluid>.navbar-header,
     .container>.navbar-collapse,
@@ -4685,7 +4685,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     border-width: 0 0 1px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .navbar-static-top {
         border-radius: 0
     }
@@ -4699,7 +4699,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     z-index: 1030
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .navbar-fixed-top,
     .navbar-fixed-bottom {
         border-radius: 0
@@ -4734,7 +4734,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     display: block
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .navbar>.container .navbar-brand,
     .navbar>.container-fluid .navbar-brand {
         margin-left: -15px
@@ -4769,7 +4769,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     margin-top: 4px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .navbar-toggle {
         display: none
     }
@@ -4785,7 +4785,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     line-height: 20px
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
     .navbar-nav .open .dropdown-menu {
         position: static;
         float: none;
@@ -4808,11 +4808,28 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
         background-image: none
     }
 }
+@media (max-width:1200px) {
+  .navbar-nav>li{
+    background-color: white;
+    width: 600px;
 
-@media (min-width:768px) {
+  }
+
+
+
+}
+@media (max-width:800px) {
+  .navbar-nav>li{
+    background-color: white;
+    width: auto;
+
+  }
+
+}
+@media (min-width:1200px) {
     .navbar-nav {
-        float: left;
-        margin: 0
+        float: right;
+        margin: 0;
     }
     .navbar-nav>li {
         float: left
@@ -4835,7 +4852,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1)
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .navbar-form .form-group {
         display: inline-block;
         margin-bottom: 0;
@@ -4886,7 +4903,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
     .navbar-form .form-group {
         margin-bottom: 5px
     }
@@ -4895,7 +4912,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .navbar-form {
         width: auto;
         padding-top: 0;
@@ -4941,7 +4958,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     margin-bottom: 15px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .navbar-text {
         float: left;
         margin-right: 15px;
@@ -4949,7 +4966,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .navbar-left {
         float: left!important
     }
@@ -4964,7 +4981,6 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 
 .navbar-default {
     background-color: #f8f8f8;
-    border-color: #e7e7e7
 }
 
 .navbar-default .navbar-brand {
@@ -5030,7 +5046,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     background-color: #e7e7e7
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         color: #777
     }
@@ -5067,7 +5083,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
-    color: #333
+    color: blue
 }
 
 .navbar-default .btn-link[disabled]:hover,
@@ -5102,7 +5118,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
-    color: black;
+    color: #0480EF;
     background-color: transparent
 }
 
@@ -5130,13 +5146,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
+
     background-color: #fff
 }
 
-.navbar-inverse .navbar-collapse,
-.navbar-inverse .navbar-form {
-    border-color: #101010
-}
 
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:hover,
@@ -5145,9 +5158,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: red
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header {
-        border-color: #080808
+        border-color: #080808;
+
+          width: 100px;
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
         background-color: #080808
@@ -5540,7 +5555,7 @@ a.badge:focus {
     max-width: 100%
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1200px) {
     .jumbotron {
         padding: 48px 0
     }
@@ -6646,7 +6661,7 @@ button.close {
     overflow: scroll
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .modal-dialog {
         width: 600px;
         margin: 30px auto
@@ -7149,7 +7164,7 @@ button.close {
     text-shadow: none
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1200px) {
     .carousel-control .glyphicon-chevron-left,
     .carousel-control .glyphicon-chevron-right,
     .carousel-control .icon-prev,
@@ -7298,7 +7313,7 @@ button.close {
     display: none!important
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
     .visible-xs {
         display: block!important
     }
@@ -7314,25 +7329,25 @@ button.close {
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
     .visible-xs-block {
         display: block!important
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
     .visible-xs-inline {
         display: inline!important
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
     .visible-xs-inline-block {
         display: inline-block!important
     }
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:1200px) and (max-width:991px) {
     .visible-sm {
         display: block!important
     }
@@ -7348,19 +7363,19 @@ button.close {
     }
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:1200px) and (max-width:991px) {
     .visible-sm-block {
         display: block!important
     }
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:1200px) and (max-width:991px) {
     .visible-sm-inline {
         display: inline!important
     }
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:1200px) and (max-width:991px) {
     .visible-sm-inline-block {
         display: inline-block!important
     }
@@ -7434,13 +7449,13 @@ button.close {
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
     .hidden-xs {
         display: none!important
     }
 }
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:1200px) and (max-width:991px) {
     .hidden-sm {
         display: none!important
     }
