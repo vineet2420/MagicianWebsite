@@ -13,11 +13,11 @@ and (-webkit-device-pixel-ratio : 3)
 and (orientation : portrait) {
 
   .cd-hero-slider li:first-of-type{
-    height: 300px;
+    height: 200px;
   }
 
   .cd-hero{
-    height: 300px;
+    height: 200px;
   }
 
 
@@ -72,11 +72,11 @@ Main Components
   }
 
   .cd-hero-slider li:first-of-type{
-    height: 400px;
+    height: 300px;
   }
 
   .cd-hero{
-    height: 400px;
+    height: 300px;
   }
 }
 
