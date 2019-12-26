@@ -6,6 +6,14 @@ http://www.tooplate.com/view/2089-meteor
 
 */
 
+#hoverText{
+
+  color: white;
+  padding-top: 20%;
+  font-size: 20px;
+  text-align: center;
+
+}
 
 
 #apple{
@@ -486,6 +494,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	color: #0480EF;
 	border-radius: 50%;
 	font-size: 18px;
+  position: relative;
 }
 
 .project-item .hover-effect i:hover {
